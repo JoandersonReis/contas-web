@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+package-lock.json
+*.tsbuildinfo
+.env
+.env.*
+src/prisma/contract.json
+src/prisma/contract.d.ts
+migrations/
