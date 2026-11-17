@@ -6,3 +6,7 @@ dist/
 *.tsbuildinfo
 coverage/
 migrations/**/refs/db.json
+
+# Public API addresses, required for reproducible environment selection.
+!.env.development
+!.env.production

@@ -1,3 +1,4 @@
+import { styles } from "./theme.styles";
 import { useEffect, useState } from "react";
 import { Moon, Sun } from "lucide-react";
 
@@ -45,7 +46,7 @@ export function ThemeToggle() {
   return (
     <button
       type="button"
-      className="theme-toggle"
+      className={styles["theme-toggle"]}
       aria-label={theme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"}
       title={theme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"}
       onClick={() => {
